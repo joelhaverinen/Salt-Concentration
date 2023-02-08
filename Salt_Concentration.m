@@ -23,12 +23,12 @@ tulosZ = [1:tk]
 while n <= tk                       % pienempää tai yhtä suurta
 
     
-S  = Salus + (in*Pin*n) - (out*S/V*n)
+S  = Salus + (in*Pin*n) - (out*S/V*n)   % Suolan määrä ajan hetkellä t   
 %S2 = Salus + (in*Pin*n) 
 
 tulosY(1,n) = S                     % esim. y(1,6)=8; jos haluaa muuttaa matriisin ekan rivin kuudetta solua.
 tulosZ(1,n) = S2   
-                                    % Suolan määrä ajan hetkellä t                              
+                                                                
                            
                  
 
